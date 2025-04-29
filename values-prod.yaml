@@ -22,6 +22,6 @@ ingress:
 replicaset:
   name: replicaset-prd
 volumeMounts:
-  - name: config-volume
-    mountPath: /app/config.json
-    subPath: config.json
+  name: config-volume
+  mountPath: /app/config.json
+  subPath: config.json
